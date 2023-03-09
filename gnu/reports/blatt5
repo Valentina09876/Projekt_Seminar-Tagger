@@ -1,0 +1,31 @@
+Aufgabe 3 a)
+
+Durch die Iteration, wird das Perceptron wiederholt trainiert, zu erwarten ist also eine Verbesserung
+der Vorhersage und somit ein erhöhter Accuracy-Wert
+
+In der Praxis konnten wir genau das beobachten:
+
+durch iteration steigt der Accuracy-Wert exponentiell, nähert sich der 1
+
+Aufgabe 4 a)
+
+Zur Fehleridentifikation, nutzen wir die ConfusionsMatrix der Entwicklungsdaten um die
+am häufigsten auftauchenden Fehler mit der extractInstances Function zu analysieren.
+
+Es gibt einige Regelmäßigkeiten im Kontext der aufgetauchten Fehler.
+
+Aufgabe 4 b)
+Der Kontext der POS-tags soll für die Betrachtung der Eigenschaften mit einbezogen werden.
+
+>>> der POS-tag für das vorherige Token \
+                                            Kontex -> Tags
+>>> der POS-tag für das nächste Token   /
+>>> auch das POS-Tag für das aktuelle Token - Eigenschaft des zu klassifizierenden Wortes
+
+
+
+
+
+
+
+

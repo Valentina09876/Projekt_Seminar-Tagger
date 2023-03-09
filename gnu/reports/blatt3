@@ -1,0 +1,22 @@
+Aufgabe 1)
+
+Dokumentierung der Lösung
+
+Jedes Token enthält eine Liste mit seinen Merkmalen (Einträge sind die Indizes -Integer).
+
+Die Einspeicherung der Merkmale ist mit dem StringMapper schon geschehen, hier entzieht
+der Extractor nur diese Merkmale des jeweiligen Wortes (ob vorheriges, aktuelles oder nächstes)
+und speichert diese in seiner Merkmal-Liste ab.
+
+
+Aufgabe 4)
+
+Das SVMmulti-Format unterstützt keine Gruppierung der Tokens durch Sätze
+Ende eines Satzes muss im code notiert sein
+EOS =  End Of Sentence
+Ende eines Satzes wird also mit EOS markiert, und das Ende der Merkmal-List
+eines jeden Token mit '#'
+
+
+
+

@@ -1,0 +1,32 @@
+Aufgabe 2 a)
+Die wortformen liegen in der zweiten Spalte in der wsj_dev.conll09 datei
+
+mit 'awk' eine neue Datei ohne die syntaktische Information erstellen:
+awk '{print $2}' wsj_dev.conll09 > wsj_dev_token.txt
+
+tagging erfollgt mit tree-tagger:
+
+cat wsj_dev_token.txt | cmd/tree-tagger-english > wsj_dev_token_tagger.txt
+
+
+Aufgabe 2 b) (Analyse der Verben)
+
+Gemeinsamkeit der Tagsets:
+beide unterscheiden zwischen Infinitiv, finiten Formen und Partizipien.
+
+Unterschiede der Tagsets:
+STTS unterscheidet zwischen Voll-, Hilfs- und Modalverben und hat eigene Tags für Imperative.
+Penn unterscheidet bei manchen finiten Formen nach Tempus und Person.
+
+Aufgabe 3 a)
+
+Die Eingabedatei aus Aufgabe 2 enthällt einige leere Zeilen, das kopieren der Eintrage und das anschlißende Tagging
+sorgt dafür, dass diese Zeilen verschwinden und nicht getagged werden.
+
+Aufgabe 3 b)
+
+  *cut -f -s*
+
+Aufgabe 4
+
+------Team ----

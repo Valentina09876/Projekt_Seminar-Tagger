@@ -1,0 +1,5 @@
+Aufgabe 4 b)
+
+Wofür ist die Methode inverseLookup hilfreich?
+Wenn wir nun am Ende zu jedem Wort die Liste mit unterschiedlichen features haben, aber nur die Indizes sehen
+und evtl nicht wissen wofür diese stehen, können wir mit dieser Methode nachsehen welcher Index für welches Merkmal steht
